@@ -1,0 +1,52 @@
+.Header-container{
+    width:100%;
+    height:3em;
+    padding: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+.Header-container>p{
+    position: relative;
+    left:80em;
+}
+
+ul:hover{
+    color: rgb(99, 8, 88);
+}
+.sub-breed-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding:0.5em;
+    margin: 1em;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to left, #00ff00 0%, #00ffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    list-style-type: none;
+}
+.dog-logo{
+    border-radius:50%;
+    width:4em;
+    height:4em;
+    position: relative;
+    top:0em;
+}
+.sub-breed-container-1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    padding:0.5em;
+    margin: 1em;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #ffadad;
+    background: linear-gradient(45deg, #ffadad, #ff8a88, #ff5e59, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
